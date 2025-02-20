@@ -1,0 +1,4 @@
+pyodbc
+fastapi[standard]
+pydantic
+uvicorn[standard]

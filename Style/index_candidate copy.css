@@ -1,0 +1,48 @@
+/* Mise en forme */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    fieldset {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    fieldset {
+        width: 95%;
+    }
+}
+
+
+/* Formulaire candidat et recruteur caché par défaut */
+.field_companies  {
+    display: none;
+}
+
+.companies {
+    display: none;
+}
+
+.fiel_ads {
+    display: none;
+}
+
+.field_tips{
+    display: none;
+}
