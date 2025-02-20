@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+
+    <!-- Header avec la navigation -->
+    <header>
+        <nav class="navbar">
+            <img src="./assets/img/picto/Jobply-3-removebg-preview.png" alt="Logo" class="logo">
+            <ul class="nav-links">
+                <li><a href="HTML/inscription.html">Accueil</a></li>
+                <li><a href="HTML/inscription.html">Annonces</a></li>
+                <li><a href="HTML/inscription.html">Infos</a></li>
+                <li><a href="HTML/inscription.html">Contact</a></li>
+                <li><a href="HTML/connexion.html">Connexion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main avec deux sections -->
+    <main>
+        <div class="container">
+            <section class="intro">
+                <h1>
+                    "Explorez les meilleures opportunités de carrière <br> et trouvez l'entreprise qui vous correspond."
+                </h1>
+                <a href="">voir les annonces</a>
+            </section>
+            <!-- Première section avec deux articles -->
+            <section class="info-section">
+                <article class="card">
+                    <div class="elements">
+                        <h2>Trouvez du travail</h2>
+                        <p>Découvrez des opportunités d'emploi adaptées à vos compétences grâce à notre plateforme.</p>
+                    </div>
+                    <img src="./assets/img/candidat.svg" alt="Illustration de recherche d'emploi">
+                </article>
+
+                <article class="card">
+                    <div class="elements">
+                        <h2>Recrutez de nouveaux talents</h2>
+                        <p>Publiez des offres d'emploi et trouvez les meilleurs talents pour votre entreprise.</p>
+                    </div>
+                    <img src="./assets/img/recruteur.svg" alt="Illustration de recrutement">
+                </article>
+            </section>
+
+            <!-- Deuxième section : Formulaire de contact -->
+            <section class="contact-section">
+                <h2>Contactez-nous</h2>
+                <form action="#" method="post">
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+                    
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Envoyer</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <ul class="footer-links">
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Politique de confidentialité</a></li>
+                <li><a href="#">Conditions d'utilisation</a></li>
+            </ul>
+            <img src="logo-footer.png" alt="Logo" class="footer-logo">
+            <p>&copy; 2024 Tous droits réservés</p>
+        </div>
+    </footer>
+
+</body>
+</html>

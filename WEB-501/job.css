@@ -1,0 +1,11 @@
+fieldset{
+    border: 15px groove red;
+}
+nav > ul, li{
+    
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+   
+}
